@@ -10,3 +10,6 @@ We need to implement simple_pmpu and NAND first, so this has no chance at least 
 
 # Recursive on system
 We should implement recursive on this with very slow but at least guarantee integrity in some range.
+
+# This is concept and only a compileable document.
+We must search preceding patents first before to compile or use.
