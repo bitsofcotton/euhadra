@@ -25,7 +25,10 @@ if there's a differ on each CPU tick and RTC, it has a chance to be intruded.
 Otherwise, the differ of tick time out of the box has a difference to
 the machine, it also should because xtal is stable to some of the environments.
 (In fact, we need to calculate sup of the tick uncertainity \% on whole box in
-ideal hardware with real environment meaning.)
+ideal hardware with real environment meaning.)  
+XXX: but if the malicious process have its core which is hidden from kernel land
+and running all the time with some trigger, only the some race condition they occur
+in rare case can detect them.
 
 # This is concept and only a compileable document.
 We must search preceding patents first before to compile or use.
